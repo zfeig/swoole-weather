@@ -16,5 +16,8 @@ swoole爬虫，抓取天气预报信息
   crontab -e 
   0 11,17 * * * /bin/php -f /data/swoole/server_client_timer/Client.php
 ```
-
+# 采集接口 和风天气v5免费版
+* 接口地址 https://free-api.heweather.com/v5/weather?city=$id&key=XXX
+* key为注册用户后台提供的key,需要邮箱注册获取
+* 接口访问限制每天3000条请求
   

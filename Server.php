@@ -62,7 +62,7 @@
       $id = $weatherInfo[$data]['id'];
       
       //处理任务
-      $url = "https://free-api.heweather.com/v5/weather?city=$id&key=bf5297f3ab594499b654732884dc561f";
+      $url = "https://free-api.heweather.com/v5/weather?city=$id&key=064d848794a647538c053e533fbec786";
       $json = Weather::getWeatherByUrl($url);
       Weather::saveData($json); 
       
